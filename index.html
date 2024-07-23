@@ -1,5 +1,44 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SLUDGEROT DECOMPOSITION GIRLTHING</title>
+        <style>
+            .container {
+                display: flex;
+            }
+            .column {
+                flex: 1;
+                padding: 10px;
+                margin: 5px;
+                border: 2px solid;
+                height: 300px;
+                box-sizing: border-box;
+                position: relative;
+            }
+            .column::before, .column::after {
+                content: "+";
+                position: absolute;
+                color: inherit;
+            }
+            .column::before {
+                top: -2px;
+                left: -2px;
+            }
+            .column::after {
+                bottom: -2px;
+                right: -2px;
+            }
+            .column-content {
+                height: 100%;
+                width: 100%;
+                border: 2px dotted;
+                border-color: inherit;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
     <body style="background-color: black;">
         <pre style="color: aqua; font-family: 'Courier New', Courier, monospace; text-align: center;">
             :::::::: ::::::::::: :::::::::  :::        ::::::::::   :::     ::::::::::: :::  
@@ -22,6 +61,48 @@
        
        
         </pre>
-        <p style="color: white;">I'm hosted with GitHub Pages.</p>
+        <div class="container">
+            <div class="column" style="border-color: rgb(255, 164, 179);">
+                <div class="column-content">
+                    <h2 style = "color: rgb(255,164,179); font-family: 'Courier New', Courier, monospace; text-align: center;">
+                        About Me :3
+                    </h2>
+                    <p style = "color: rgb(255,164,179); font-family: 'Courier New', Courier, monospace; text-align: justify;">
+                        Hi there! I'm going to fill this in eventually. My name is Scarlett and I use she/they/it. Hoping to make this a 
+                        good spot to dump all my stuff. I'm in the process of sunsetting my old Github account in favor of this one. 
+                        Progress will be made when it is made. 
+                        <br> <br>
+                        Avid MTG fan. Ask me about the Judge's Tower. <br>
+                        Currently making GT:NH my entire personality.
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="column" style="border-color: white;">
+                <div class="column-content">
+                    <h2 style = "color: white; font-family: 'Courier New', Courier, monospace; text-align: center;">
+                        My Stuff!!!
+                    </h2>
+                    <p style = "color: white; font-family: 'Courier New', Courier, monospace; text-align: justify;">
+                        Meow meow meow meow meow meow meow meow. <br>
+                        The following will be links, eventually. Once I feel like it. <br>
+                        <br>
+                        The Tower of Babel<br>
+                        pandora<br>
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="column" style="border-color: aqua;">
+                <div class="column-content">
+                    <h2 style = "color: aqua; font-family: 'Courier New', Courier, monospace; text-align: center;">
+                        (IDK what goes here :3)
+                    </h2>
+                    <p style = "color: aqua; font-family: 'Courier New', Courier, monospace; text-align: justify;">
+                        Meow meow meow meow meow meow meow meow.
+                    </p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
